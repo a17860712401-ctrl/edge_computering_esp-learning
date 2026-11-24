@@ -30,3 +30,27 @@ ESP 校时成功后，测试代码会每隔约 10 秒读取一次 ESP 当前时�
   "concentration": 5.2448,
   "unit": "mmol/kg"
  }
+
+## 1. 初始化本地 git（如果之前没操作过）
+
+git init
+
+## 2. 添加所有文件
+
+git add .
+
+## 3. 提交并备注
+
+git commit -m "first commit"
+
+## 4. 设置主分支为 main
+
+git branch -M main
+
+## 5. 关联刚才创建的远程仓库
+
+git remote add origin <你的仓库地址>
+
+## 6. 推送到 GitHub
+
+git push -u origin main
